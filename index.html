@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habit Tracker</title>
+  <meta name="description" content="A free habit tracker with no ads, no account and no internet: streaks, reminders, stats and a pixel village game.">
+  <link rel="icon" href="icon.png">
+  <style>
+    @font-face { font-family: Pixel; src: url(PixelifySans_700Bold.ttf); }
+    :root { --paper: #FFF4D6; --ink: #2B2140; --muted: #6B5E80; --green: #2E7D36; --card: #FFFFFF; }
+    @media (prefers-color-scheme: dark) { :root { --paper: #1A1630; --ink: #F6ECCF; --muted: #B9AC8E; --green: #5CC160; --card: #2A2448; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+    header img { width: 72px; height: 72px; image-rendering: pixelated; border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+    h1, h2 { font-family: Pixel, system-ui, sans-serif; line-height: 1.2; }
+    h1 { font-size: 34px; margin: 0; }
+    h2 { font-size: 22px; margin: 32px 0 8px; }
+    .tag { color: var(--green); font-weight: 600; margin: 4px 0 0; }
+    .card { background: var(--card); border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); padding: 16px 20px; margin: 24px 0; }
+    .muted { color: var(--muted); }
+    a { color: var(--green); }
+    nav a { margin-right: 16px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Habit Tracker</h1>
+      <p class="tag">Free · No ads · Offline</p>
+    </div>
+  </header>
+  <nav><a href="#privacy">Privacy policy</a><a href="#contact">Contact</a></nav>
+
+  <div class="card">
+    <p>Build better habits with a tracker that's completely free: no ads, no subscription, no account and no limit on habits. Streaks that forgive a slip, reminders that arrive, all the stats, home screen widgets, and an optional pixel village game where every habit you complete moves your hero forward.</p>
+    <p class="muted">Your data stays on your phone. The app doesn't even have permission to use the internet.</p>
+  </div>
+
+  <section id="privacy">
+    <h2>Privacy policy</h2>
+    <p class="muted">Last updated: November 13, 2026</p>
+    <p>Habit Tracker is a free habit tracking app with no ads, no accounts and no subscriptions, and optional tips. In short: <strong>everything stays on your phone.</strong></p>
+
+    <h2>What the app stores</h2>
+    <p>The habits you create, the days you complete or skip them, your categories, reminders and settings, your badges and coins, and your village and hero in the optional game. All of it is stored <strong>only on your device</strong>.</p>
+
+    <h2>What the app collects</h2>
+    <p><strong>Nothing.</strong> The app has no internet permission, so it cannot send anything anywhere. There are no analytics, no crash reporting services, no advertising, no tracking and no third-party SDKs that collect data. The developer never sees your data.</p>
+
+    <h2>Backups you choose</h2>
+    <ul>
+      <li><strong>Automatic backup</strong> to a folder or a file you pick (for example in Google Drive). The app writes the file through Android's file picker; any upload is done by the storage app you chose, under that service's own terms.</li>
+      <li><strong>Share a backup</strong> through your phone's share sheet, to wherever you send it.</li>
+      <li><strong>Android Auto Backup</strong>: if it's on in your phone's settings, Android may copy the app's data to your Google account, as it does for most apps. This is managed by Android and Google, not by the app.</li>
+    </ul>
+    <p>Backup files contain your habit data. Keep them somewhere you trust.</p>
+
+    <h2>Optional tips</h2>
+    <p>Settings has a "Support the developer" card with three optional one-time tips. They are paid through <strong>Google Play</strong>: Google handles the payment and your payment details, under Google's own terms, and the app never sees them. The app only learns which tip was bought, keeps that on your phone (so it can show the thank-you gift), and asks Google Play which tips your account owns so the gift comes back after a reinstall. Tips unlock nothing but the thank-you gift; every feature is free.</p>
+
+    <h2>Notifications</h2>
+    <p>Reminders and the evening check-in are scheduled on your phone. The app asks for permission to show notifications and, optionally, to set exact alarms so reminders arrive on time.</p>
+
+    <h2>Children</h2>
+    <p>The app does not collect personal information from anyone, including children.</p>
+
+    <h2>Deleting your data</h2>
+    <p>Uninstalling the app deletes all of its data from your phone. Backup files you made stay where you saved them until you delete them.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Questions or feedback: <a href="mailto:Habit.Tracker.RNGD@gmail.com">Habit.Tracker.RNGD@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
